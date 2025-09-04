@@ -1,3 +1,3 @@
 # Landing-Page
 
-Para visualizar: landing-page-ztoz.vercel.app
+Para visualizar: https://landing-page-ztoz.vercel.app/
