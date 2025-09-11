@@ -18,7 +18,7 @@
     padding: 15px 30px;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 50; /*tamanho do scroll*/
   }
   
   .navbar {
@@ -40,7 +40,7 @@
   .nav-links a {
     color: #fff;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.7s;
   }
   
   .nav-links a:hover {
@@ -79,6 +79,14 @@
     border: 3px solid #fff;
   }
   
+  h2{
+    font-size: 16;
+  }
+
+  p{
+    margin: 20px;
+  }
+
   /* Seções */
   .container {
     padding: 60px 20px;
