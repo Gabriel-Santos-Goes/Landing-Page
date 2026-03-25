@@ -43,9 +43,8 @@ Ou rodar localmente:
 
 ## 📧 Contato
 
-- **LinkedIn:** [Seu Nome](https://linkedin.com/in/seu-perfil)
-- **E-mail:** seu-email@exemplo.com
-- **GitHub:** [@seu-usuario](https://github.com/seu-usuario)
+- **LinkedIn:** [Seu Nome](www.linkedin.com/in/gabriel-santos-góes)
+- **E-mail:** gabrielgoesdev@gmail.com
 
 ---
 Developed with by Gabriel Santos Góes
