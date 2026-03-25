@@ -33,7 +33,7 @@ Para este projeto, optei por utilizar tecnologias nativas para demonstrar domín
 ## 🚀 Como visualizar
 
 Você pode visualizar o projeto online através do GitHub Pages:
-👉 **[CLIQUE AQUI PARA VER O SITE ONLINE](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/)** *(Substitua pelos seus links após publicar)*
+👉 **[CLIQUE AQUI PARA VER O SITE ONLINE](https://landing-page-ztoz.vercel.app/)** 
 
 Ou rodar localmente:
 1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
@@ -48,6 +48,4 @@ Ou rodar localmente:
 - **GitHub:** [@seu-usuario](https://github.com/seu-usuario)
 
 ---
-Developed with ❤️ by Gabriel Santos Góes
-
-Para visualizar: https://landing-page-ztoz.vercel.app/
+Developed with by Gabriel Santos Góes
