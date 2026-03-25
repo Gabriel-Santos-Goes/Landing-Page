@@ -3,113 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Autobiografia - Gabriel Santos Góes</title>
+  <title>Gabriel Santos | Desenvolvedor Full Stack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navbar -->
+
   <header>
     <nav class="navbar">
-      <h1 class="logo">Autobiografia</h1>
+      <h1 class="logo">G<span>S</span></h1>
       <ul class="nav-links" id="nav-links">
         <li><a href="#inicio">Início</a></li>
-        <li><a href="#biografia">Biografia</a></li>
+        <li><a href="#biografia">Sobre</a></li>
         <li><a href="#experiencias">Experiências</a></li>
         <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#contato" class="btn-nav">Contato</a></li>
       </ul>
-      <!-- Botão menu mobile -->
-      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
     </nav>
   </header>
 
-  <!-- Hero -->
   <section id="inicio" class="hero">
     <div class="hero-content">
-      <img src="img/20240323_155005.jpg" alt="Foto principal" class="foto">
-      <h2>Muito prazer, eu sou o Gabriel</h2>
-      <p>
-        Sou Gabriel Santos Góes, atualmente tenho 17 anos e sou apaixonado por tecnologia e estou em constante aprendizado. Este é um espaço para compartilhar minha trajetória, minhas conquistas e os projetos que desenvolvi até aqui.
-      </p>
+      <div class="foto-wrapper">
+        <img src="img/20240323_155005.jpg" alt="Gabriel Santos" class="foto">
+      </div>
+      <span class="badge">Disponível para novos desafios</span>
+      <h1>Muito prazer, eu sou o <span>Gabriel Santos</span></h1>
+      <p>Desenvolvedor focado em criar experiências digitais modernas e funcionais. Atualmente transformando ideias em código no Curso Técnico de Desenvolvimento de Sistemas.</p>
+      <div class="hero-btns">
+        <a href="#contato" class="btn-primary">Vamos conversar?</a>
+        <a href="#projetos" class="btn-secondary">Ver Projetos</a>
+      </div>
     </div>
   </section>
 
-  <!-- Biografia -->
   <section id="biografia" class="container reveal">
-    <h1>Minha História</h1>
-    <p>
-      Desde pequeno, sempre gostei muito de tecnologia, e, com 10 anos, decidi seguir nessa área, visando desenvolver aplicativos e sites, pois me interessava bastante pela interação com coisas novas. A partir desse ponto, fui atrás de estudar o que seriam as bases da área de tecnologia. Fiz um curso de hardware para entender como os computadores funcionam, quais são as peças que mais apresentam problemas e como essas máquinas se comunicam entre si e com seus sinais.Também estudei sobre o pacote Office e desenvolvimento de jogos 3D, mas não consegui aprender tanto quanto gostaria.
-    </p>
-    <p>
-      Em 2024, comecei a aprender de fato sobre programação — como funciona, quais foram suas origens, quais áreas é possível seguir e até onde é possível chegar dentro do desenvolvimento. Após uma análise, comecei a me aprofundar no desenvolvimento front-end, pois foi o que me deu uma base de como seria esse ramo. No entanto, também experimentei outras áreas, como back-end, mobile, banco de dados e blockchain, por meio de um curso técnico integrado ao ensino médio na escola E.E. Gustavo Peccinini.
-    </p>
-    <p>
-      Atualmente, tenho estudado principalmente front-end, back-end e banco de dados, com o objetivo futuro de me tornar um desenvolvedor full stack. Acabei gostando de todas as áreas listadas acima e agora estou colocando o conhecimento que adquiri em prática, por meio de projetos que buscam resolver problemas reais.
-    </p>
+    <div class="section-header">
+      <small>Quem eu sou</small>
+      <h2>Minha História</h2>
+    </div>
+    <div class="bio-text">
+      <p>Desde os 10 anos, a tecnologia é minha bússola. Comecei entendendo o <strong>hardware</strong>, montando e desmontando máquinas, o que me deu a base lógica necessária para o que faço hoje. Tentei jogos 3D e Office, mas foi na <strong>programação</strong> que encontrei meu propósito.</p>
+      <p>Em 2024, mergulhei de cabeça no desenvolvimento. Hoje, domino as bases do <strong>Front-end</strong> e estou expandindo meus horizontes para <strong>Back-end e Banco de Dados</strong>. Meu objetivo é a maestria Full Stack, criando soluções que realmente resolvam problemas.</p>
+    </div>
   </section>
 
-  <!-- Experiências -->
-  <section id="experiencias" class="container reveal">
-    <h2>Minhas Experiências</h2>
-    <div class="experiencias">
-      <div class="experiencia reveal">
-        <h3>To-do-List</h3>
-        <span>2024 - Atual</span>
-        <p>Desenvolvido utilizando Python e banco de dados.</p>
+  <section id="experiencias" class="bg-alt">
+    <div class="container reveal">
+      <div class="section-header">
+        <small>Trajetória</small>
+        <h2>Experiências e Estudos</h2>
       </div>
-      <div class="experiencia reveal">
-        <h3>Curso Técnico em Desenvolvimento de Sistemas</h3>
-        <span>2023 - 2025</span>
-        <p>Estudando programação web, lógica de programação, banco de dados e boas práticas de software.</p>
-      </div>
-      <div class="experiencia reveal">
-        <h3>Site da minha turma</h3>
-        <span>2023 - 2025</span>
-        <p>Projeto colaborativo desenvolvido em sala, aplicando conhecimentos de HTML, CSS e JavaScript.</p>
+      <div class="experiencias-grid">
+        <div class="exp-card">
+          <div class="exp-date">2023 - 2025</div>
+          <h3>Técnico em Des. de Sistemas</h3>
+          <p>E.E. Gustavo Peccinini. Foco em lógica, Web, Mobile e Banco de Dados.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-date">2024</div>
+          <h3>To-do List Python</h3>
+          <p>Desenvolvimento de lógica de backend e persistência de dados.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-date">2024</div>
+          <h3>Projeto Turma</h3>
+          <p>Liderança técnica em projeto colaborativo usando HTML, CSS e JS.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Projetos / Conquistas -->
-  <section id="projetos" class="container">
-    <h2>Algumas conquistas minhas:</h2>
-    <div class="cards">
+  <section id="projetos" class="container reveal">
+    <div class="section-header">
+      <small>Portfólio</small>
+      <h2>Conquistas em Destaque</h2>
+    </div>
+    <div class="cards-grid">
       <div class="card">
-        <h3>Projeto de Site</h3>
-        <p>
-          Nesse projeto, desenvolvi um site sobre a turma de desenvolvimento de sistema que atualmente faço parte.
-        </p>
+        <div class="card-icon">💻</div>
+        <h3>Desenvolvimento Web</h3>
+        <p>Criação de interfaces responsivas e otimizadas para a web moderna.</p>
       </div>
       <div class="card">
-        <h3>Melhor Aluno</h3> 
-        <p>
-          Durante meus anos no ensino fundamental, fui reconhecido por meus resultados em provas e fui um dos melhores. 
-        </p>
+        <div class="card-icon">🏆</div>
+        <h3>Destaque Acadêmico</h3>
+        <p>Reconhecido como um dos melhores alunos durante o ensino fundamental.</p>
       </div>
       <div class="card">
-        <h3>OBMAP</h3>
-        <p>
-          Fui capaz de chegar nas fases finais da Olimpíada Brasileira de Matemática das Escolas Públicas.
-        </p>
+        <div class="card-icon">🧮</div>
+        <h3>Finalista OBMEP</h3>
+        <p>Classificado para as fases finais da Olimpíada Brasileira de Matemática.</p>
       </div>
     </div>
   </section>
 
-  <!-- Contato -->
-  <section id="contato" class="container">
-    <h2>Entre em Contato</h2>
-    <form>
-      <input type="text" placeholder="Seu nome" required>
-      <input type="email" placeholder="Seu e-mail" required>
-      <input type="text" placeholder="Assunto" required>
-      <textarea placeholder="Sua mensagem" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+  <section id="contato" class="container reveal">
+    <div class="section-header">
+      <small>Contato</small>
+      <h2>Fale Comigo</h2>
+    </div>
+    <div class="contact-wrapper">
+      <form id="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Seu nome" required>
+          <input type="email" placeholder="Seu e-mail" required>
+        </div>
+        <input type="text" placeholder="Assunto" required>
+        <textarea placeholder="Como posso te ajudar?" rows="5" required></textarea>
+        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+      </form>
+    </div>
   </section>
 
-  <!-- Rodapé -->
   <footer>
-    <p>Desenvolvido por Gabriel Santos Góes © 2025</p>
+    <div class="footer-content">
+      <p>© 2025 Gabriel Santos Góes. Criado com código puro.</p>
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
   </footer>
 
   <script src="script.js"></script>
