@@ -43,7 +43,7 @@ Ou rodar localmente:
 
 ## 📧 Contato
 
-- **LinkedIn:** [Seu Nome](www.linkedin.com/in/gabriel-santos-góes)
+- **LinkedIn:** [Gabriel Santos Góes](www.linkedin.com/in/gabriel-santos-góes)
 - **E-mail:** gabrielgoesdev@gmail.com
 
 ---
