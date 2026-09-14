@@ -1,0 +1,5 @@
+# Ignore o Env  
+.env
+
+# ignore a imagem
+img/
